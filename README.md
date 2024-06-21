@@ -1,14 +1,18 @@
-# [Gruvbox Theme]
-[Arch] [Hyprland] gruv dotfiles
+# [Catppuccin Theme]
+[Arch] [Hyprland] catppuccin dotfiles
 
-### Update the location for wallpaper in $HOME/.config/hypr/ hyprlock.conf and hyprpaper.conf
-## SDDM [[where-is-my-theme](https://github.com/stepanzubkov/where-is-my-sddm-theme)]
+### GTK Theme [Catppuccin]
 ```bash
-yay -S where-is-my-sddm-theme-git
+yay -S catppuccin-gtk-theme-mocha
+```
+### Kvantum Theme (for qt)
+```bash
+yay -S  kvantum-theme-catppuccin-git
 ```
 
 ### 🖼 Preview
-<img width="700" src="https://github.com/Nishantdd/.dotfiles-gruv/blob/main/assets/Desktop.png">
-<img width="700" src="https://github.com/Nishantdd/.dotfiles-gruv/blob/main/assets/browser.png">
-<img width="700" src="https://github.com/Nishantdd/.dotfiles-gruv/blob/main/assets/general.png">
-More in [assets](https://github.com/Nishantdd/.dotfiles-gruv/main/assets)
+<img width="700" src="https://github.com/Nishantdd/.dotfiles-catppuccin/blob/main/assets/desktop.png">
+<img width="700" src="https://github.com/Nishantdd/.dotfiles-catppuccin/blob/main/assets/browser.png">
+<img width="700" src="https://github.com/Nishantdd/.dotfiles-catppuccin/blob/main/assets/general.png">
+
+#### More in [assets](https://github.com/Nishantdd/.dotfiles-catppuccin/main/assets)
