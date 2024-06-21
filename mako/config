@@ -1,0 +1,28 @@
+#Fone
+font=CaskaydiaCove Nerd Font 14
+
+#Global Config
+max-history=10
+sort=-time
+
+# BINDING OPTIONS
+on-button-left=dismiss
+on-button-middle=none
+on-button-right=dismiss-all
+on-touch=dismiss
+
+# STYLE OPTIONS
+default-timeout=5000
+ignore-timeout=0
+layer=overlay
+max-visible=5
+
+# Colors
+background-color=#1e1e2e
+text-color=#cba6f7
+border-color=#b4befe
+border-radius=8
+progress-color=over #313244
+
+[urgency=high]
+border-color=#f38ba8
