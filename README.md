@@ -15,4 +15,4 @@ yay -S  kvantum-theme-catppuccin-git
 <img width="700" src="https://github.com/Nishantdd/.dotfiles-catppuccin/blob/main/assets/browser.png">
 <img width="700" src="https://github.com/Nishantdd/.dotfiles-catppuccin/blob/main/assets/general.png">
 
-#### More in [assets](https://github.com/Nishantdd/.dotfiles-catppuccin/main/assets)
+#### More in [assets](https://github.com/Nishantdd/.dotfiles-catppuccin/blob/main/assets)
