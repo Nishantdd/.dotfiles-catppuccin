@@ -1,0 +1,36 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-y": "editor::Redo",
+      "ctrl-b": "workspace::ToggleLeftDock",
+      "ctrl-alt-b": "workspace::ToggleRightDock",
+      "ctrl-j": "workspace::ToggleBottomDock",
+      "ctrl-shift-x": "zed::Extensions"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-j": "workspace::ToggleBottomDock",
+      "ctrl-y": "editor::Redo",
+      "ctrl-d": "editor::DuplicateLineDown",
+      "ctrl-shift-d": "editor::DeleteLine",
+      "ctrl-alt-d": [
+              "editor::SelectNext",
+              {
+                "replace_newest": false
+              }
+            ],
+      "ctrl-enter": "editor::NewlineBelow",
+      "ctrl-shift-enter": "editor::NewlineAbove",
+      "ctrl-alt-n": "task::Spawn"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-n": "workspace::NewTerminal"
+    }
+  }
+]

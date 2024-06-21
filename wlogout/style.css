@@ -1,0 +1,117 @@
+/*
+          _                         _    
+__      _| | ___   __ _  ___  _   _| |_  
+\ \ /\ / / |/ _ \ / _` |/ _ \| | | | __| 
+ \ V  V /| | (_) | (_| | (_) | |_| | |_  
+  \_/\_/ |_|\___/ \__, |\___/ \__,_|\__| 
+                  |___/                  
+ 
+by Stephan Raabe (2023) 
+----------------------------------------------------- 
+*/
+
+/* -----------------------------------------------------
+ * Import Pywal colors 
+ * ----------------------------------------------------- */
+@import './colors-wlogout.css';
+
+/* -----------------------------------------------------
+ * General 
+ * ----------------------------------------------------- */
+
+* {
+    font-family: "JetBrainsMono Nerd Font";
+	font-weight: 700;
+	background-image: none;
+	transition: 20ms;
+}
+
+window {
+	/* background-color: rgb(60, 56, 50); */
+	background-color: transparent;
+	animation: fadeIn ease-in 0.5s;
+}
+
+button {
+	transition: all ease-in-out 0.2s;
+	color: #cba6f7;
+    font-size:20px;
+
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: 10%;
+
+	border-style: solid;
+	background-color:  #1e1e2e;
+	border: 3px solid #FFFFFF;
+	border-radius: 20px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* button:focus, */
+button:active,
+button:hover {
+    /* color: #d79921; */
+	background-color: #313244;
+	background-size: 12%;
+	transition: all ease-in-out 0.2s;
+	/* border: 3px solid #cba6f7; */
+}
+
+/* 
+----------------------------------------------------- 
+Buttons
+----------------------------------------------------- 
+*/
+
+#lock {
+	margin: 10px;
+	/* border-radius: 20px; */
+	background-image: image(url("icons/lock.png"));
+}
+
+#logout {
+	margin: 10px;
+	/* border-radius: 20px; */
+	background-image: image(url("icons/logout.png"));
+}
+
+#suspend {
+	margin: 10px;
+	/* border-radius: 20px; */
+	background-image: image(url("icons/suspend.png"));
+}
+
+#hibernate {
+	margin: 10px;
+	/* border-radius: 20px; */
+	background-image: image(url("icons/hibernate.png"));
+}
+
+#shutdown {
+	margin: 10px;
+	/* border-radius: 20px; */
+	background-image: image(url("icons/shutdown.png"));
+}
+
+#reboot {
+	margin: 10px;
+	/* border-radius: 20px; */
+	background-image: image(url("icons/reboot.png"));
+}
+
+#reboot:hover,
+#shutdown:hover,
+#hibernate:hover,
+#suspend:hover,
+#logout:hover,
+#lock:hover{
+	padding: 10px;
+}
+
+
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
