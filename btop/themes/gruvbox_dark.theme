@@ -1,0 +1,88 @@
+#Bashtop gruvbox (https://github.com/morhetz/gruvbox) theme
+#by BachoSeven
+
+# Colors should be in 6 or 2 character hexadecimal or single spaced rgb decimal: "#RRGGBB", "#BW" or "0-255 0-255 0-255"
+# example for white: "#FFFFFF", "#ff" or "255 255 255".
+
+# All graphs and meters can be gradients
+# For single color graphs leave "mid" and "end" variable empty.
+# Use "start" and "end" variables for two color gradient
+# Use "start", "mid" and "end" for three color gradient
+
+Here's a btop theme that captures a dark purple-greyish base with light yellow, orange, and reddish text accents, inspired by a darker Catppuccin palette:
+
+# Main background, dark purple greyish
+theme[main_bg]="#383842" 
+
+# Main text color, light greyish
+theme[main_fg]="#a89984"
+
+# Title color for boxes, light orange
+theme[title]="#d79921"
+
+# Higlight color for keyboard shortcuts, light reddish
+theme[hi_fg]="#cc241d"
+
+# Background color of selected items, darker purple greyish
+theme[selected_bg]="#282828"
+
+# Foreground color of selected items, light yellow
+theme[selected_fg]="#f4cccc"
+
+# Color of inactive/disabled text, even darker grey
+theme[inactive_fg]="#454545"
+
+# Color of text appearing on top of graphs, muted yellow
+theme[graph_text]="#e0e0e0"
+
+# Misc colors for processes box, light orange
+theme[proc_misc]="#d79921"
+
+# Box outline color (all the same for consistency)
+theme[cpu_box]="#383842"  # Main background color
+theme[mem_box]="#383842"  # Main background color
+theme[net_box]="#383842"  # Main background color
+theme[proc_box]="#383842"  # Main background color
+
+# Box divider and small boxes line color, lighter dark gray
+theme[div_line]="#666666"
+
+# Temperature graph colors (muted)
+theme[temp_start]="#b8bb26"  # Muted green
+theme[temp_mid]="#d3869b"  # Muted pink
+theme[temp_end]="#fb4394"  # Muted red
+
+# CPU graph colors (muted)
+theme[cpu_start]="#b8bb26"  # Muted green
+theme[cpu_mid]="#d79921"  # Light orange
+theme[cpu_end]="#fb4934"  # Muted red
+
+# Mem/Disk free meter (light blue)
+theme[free_start]="#4e5900"  # Dark green (original)
+theme[free_mid]=""
+theme[free_end]="#a89984"  # Light greyish (main text)
+
+# Mem/Disk cached meter (muted teal)
+theme[cached_start]="#83a598"  # Muted teal (original)
+theme[cached_mid]=""
+theme[cached_end]="#d79921"  # Light orange
+
+# Mem/Disk available meter (light yellow)
+theme[available_start]="#f4cccc"  # Light yellow (selected foreground)
+theme[available_mid]=""
+theme[available_end]="#d79921"  # Light orange
+
+# Mem/Disk used meter (muted red)
+theme[used_start]="#cc241d"  # Light reddish (highlight)
+theme[used_mid]=""
+theme[used_end]="#fb4934"  # Muted red (original)
+
+# Download graph colors (muted blue)
+theme[download_start]="#6c71c4"  # Muted blue (original)
+theme[download_mid]=""
+theme[download_end]="#a89984"  # Light greyish (main text)
+
+# Upload graph colors (muted pink)
+theme[upload_start]="#b16286"  # Muted pink (original)
+theme[upload_mid]=""
+theme[upload_end]="#d79921"  # Light orange
